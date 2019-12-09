@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Login", "Login\Login.csproj", "{B65D1087-B113-4EA9-988A-7027B779A217}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authenticator", "..\Helpers\Authenticator\Authenticator.csproj", "{64E82AA7-264A-4A41-86C8-EC3890380959}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileCabinet", "FileCabinet\FileCabinet.csproj", "{FCCAC24D-0B08-4986-9A4D-EAA1F4BC3425}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document", "Document\Document.csproj", "{E46B8059-5068-446C-9274-1495B4DDB4B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workflow", "Workflow\Workflow.csproj", "{1DF39799-75EA-4A24-B861-B156EFF2308D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Token", "Token\Token.csproj", "{F1F653F5-64FF-4681-8409-8A937B5B1EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dialog", "Dialog\Dialog.csproj", "{D7A718D2-33AC-47DA-B0BE-5177697F003B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B65D1087-B113-4EA9-988A-7027B779A217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65D1087-B113-4EA9-988A-7027B779A217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65D1087-B113-4EA9-988A-7027B779A217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65D1087-B113-4EA9-988A-7027B779A217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E82AA7-264A-4A41-86C8-EC3890380959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E82AA7-264A-4A41-86C8-EC3890380959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E82AA7-264A-4A41-86C8-EC3890380959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E82AA7-264A-4A41-86C8-EC3890380959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCAC24D-0B08-4986-9A4D-EAA1F4BC3425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCAC24D-0B08-4986-9A4D-EAA1F4BC3425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCAC24D-0B08-4986-9A4D-EAA1F4BC3425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCAC24D-0B08-4986-9A4D-EAA1F4BC3425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46B8059-5068-446C-9274-1495B4DDB4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46B8059-5068-446C-9274-1495B4DDB4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46B8059-5068-446C-9274-1495B4DDB4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46B8059-5068-446C-9274-1495B4DDB4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF39799-75EA-4A24-B861-B156EFF2308D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF39799-75EA-4A24-B861-B156EFF2308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF39799-75EA-4A24-B861-B156EFF2308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF39799-75EA-4A24-B861-B156EFF2308D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F653F5-64FF-4681-8409-8A937B5B1EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F653F5-64FF-4681-8409-8A937B5B1EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F653F5-64FF-4681-8409-8A937B5B1EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F653F5-64FF-4681-8409-8A937B5B1EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D781FFC-E98E-4E25-8C71-8E532D0C753B}
+	EndGlobalSection
+EndGlobal

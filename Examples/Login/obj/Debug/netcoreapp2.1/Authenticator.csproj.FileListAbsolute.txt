@@ -1,0 +1,11 @@
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.deps.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.runtimeconfig.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.runtimeconfig.dev.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.csprojAssemblyReference.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.csproj.CoreCompileInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.AssemblyInfoInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.AssemblyInfo.cs
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.pdb

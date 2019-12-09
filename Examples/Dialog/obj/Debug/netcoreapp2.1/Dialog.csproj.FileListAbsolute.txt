@@ -1,0 +1,14 @@
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Dialog.deps.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Dialog.runtimeconfig.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Dialog.runtimeconfig.dev.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Dialog.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Dialog.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Authenticator.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\bin\Debug\netcoreapp2.1\Authenticator.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.csprojAssemblyReference.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.csproj.CoreCompileInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.AssemblyInfoInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.AssemblyInfo.cs
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.csproj.CopyComplete
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Dialog\obj\Debug\netcoreapp2.1\Dialog.pdb

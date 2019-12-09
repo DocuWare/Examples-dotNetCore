@@ -1,0 +1,14 @@
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\FileCabinet.deps.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\FileCabinet.runtimeconfig.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\FileCabinet.runtimeconfig.dev.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\FileCabinet.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\FileCabinet.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\Authenticator.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\bin\Debug\netcoreapp2.1\Authenticator.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.csprojAssemblyReference.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.csproj.CoreCompileInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.AssemblyInfoInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.AssemblyInfo.cs
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.csproj.CopyComplete
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\FileCabinet\obj\Debug\netcoreapp2.1\FileCabinet.pdb

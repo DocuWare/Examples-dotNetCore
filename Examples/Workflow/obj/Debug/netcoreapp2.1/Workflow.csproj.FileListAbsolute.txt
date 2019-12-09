@@ -1,0 +1,14 @@
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Workflow.deps.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Workflow.runtimeconfig.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Workflow.runtimeconfig.dev.json
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Workflow.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Workflow.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Authenticator.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\bin\Debug\netcoreapp2.1\Authenticator.pdb
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.csprojAssemblyReference.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.csproj.CoreCompileInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.AssemblyInfoInputs.cache
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.AssemblyInfo.cs
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.csproj.CopyComplete
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.dll
+C:\TFS\DocuWare .NET\SDK\Samples\dotNetCore\Examples\Workflow\obj\Debug\netcoreapp2.1\Workflow.pdb
