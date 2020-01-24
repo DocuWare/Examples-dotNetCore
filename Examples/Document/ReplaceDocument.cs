@@ -9,14 +9,17 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
 {
     partial class Document
     {
-        static void ReplaceAllSectionsInDocument(Organization organization)
+        private static void ReplaceAllSectionsInDocument(Organization organization)
         {
             Console.WriteLine("ReplaceAllSectionsInDocument");
+
+            string queryDialogId = "00000000-0000-0000-0000-000000000000";
 
             List<string> newSectionsPath = new List<string> { @"C:\Temp\File1.pdf", @"C:\Temp\File2.pdf" };
             int documentId = 1;
 
-            FileCabinet fileCabinet = organization.GetFileCabinetsFromFilecabinetsRelation().FileCabinet.FirstOrDefault();
+            FileCabinet fileCabinet = organization.GetFileCabinetsFromFilecabinetsRelation().FileCabinet
+                .FirstOrDefault();
 
             if (fileCabinet == null)
             {
@@ -24,7 +27,47 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
             }
             else
             {
-                Platform.ServerClient.Document document = fileCabinet.GetDocumentsQueryResultFromDocumentsRelation().Items.FirstOrDefault(d => d.Id == documentId)?.GetDocumentFromSelfRelation();
+                Platform.ServerClient.Document document = null;
+
+                DialogExpression dialogExpression = new DialogExpression()
+                {
+                    Operation = DialogExpressionOperation.And,
+                    Condition = new List<DialogExpressionCondition>()
+                    {
+                        DialogExpressionCondition.Create("DWDOCID", documentId.ToString())
+                    },
+                    Count = 100,
+                    SortOrder = new List<SortedField>()
+                    {
+                        SortedField.Create("DWDOCID", SortDirection.Desc)
+                    }
+                };
+
+                DialogInfos dialogInfos = fileCabinet.GetDialogInfosFromDialogsRelation();
+
+                if (dialogInfos == null)
+                {
+                    Console.WriteLine("DialogInfos is null!");
+                }
+                else
+                {
+                    DialogInfo dialog = dialogInfos.Dialog.FirstOrDefault(d => d.Id == queryDialogId);
+
+                    if (dialog == null)
+                    {
+                        Console.WriteLine("Dialog is null!");
+                    }
+                    else
+                    {
+                        DocumentsQueryResult documentsQueryResult =
+                            dialog.GetDialogFromSelfRelation().GetDocumentsResult(dialogExpression);
+
+                        Console.WriteLine("Query Result");
+                        document = documentsQueryResult.Items.FirstOrDefault();
+
+                        document = document?.GetDocumentFromSelfRelation();
+                    }
+                }
 
                 if (document == null)
                 {
@@ -44,16 +87,18 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
             }
         }
 
-        static void ReplaceSpecificSectionInDocument(Organization organization)
+        private static void ReplaceSpecificSectionInDocument(Organization organization)
         {
             Console.WriteLine("ReplaceSpecificSectionInDocument");
 
+            string queryDialogId = "00000000-0000-0000-0000-000000000000";
             string fileCabinetId = "00000000-0000-0000-0000-000000000000";
             int documentId = 1;
             string sectionId = "1-1";
             string newSectionPath = @"C:\Temp\Test.pdf";
 
-            FileCabinet fileCabinet = organization.GetFileCabinetsFromFilecabinetsRelation().FileCabinet.FirstOrDefault(fc => fc.Id == fileCabinetId);
+            FileCabinet fileCabinet = organization.GetFileCabinetsFromFilecabinetsRelation().FileCabinet
+                .FirstOrDefault(fc => fc.Id == fileCabinetId);
 
             if (fileCabinet == null)
             {
@@ -61,7 +106,47 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
             }
             else
             {
-                Platform.ServerClient.Document document = fileCabinet.GetDocumentsQueryResultFromDocumentsRelation().Items.FirstOrDefault(d => d.Id == documentId)?.GetDocumentFromSelfRelation();
+                Platform.ServerClient.Document document = null;
+
+                DialogExpression dialogExpression = new DialogExpression()
+                {
+                    Operation = DialogExpressionOperation.And,
+                    Condition = new List<DialogExpressionCondition>()
+                    {
+                        DialogExpressionCondition.Create("DWDOCID", documentId.ToString())
+                    },
+                    Count = 100,
+                    SortOrder = new List<SortedField>()
+                    {
+                        SortedField.Create("DWDOCID", SortDirection.Desc)
+                    }
+                };
+
+                DialogInfos dialogInfos = fileCabinet.GetDialogInfosFromDialogsRelation();
+
+                if (dialogInfos == null)
+                {
+                    Console.WriteLine("DialogInfos is null!");
+                }
+                else
+                {
+                    DialogInfo dialog = dialogInfos.Dialog.FirstOrDefault(d => d.Id == queryDialogId);
+
+                    if (dialog == null)
+                    {
+                        Console.WriteLine("Dialog is null!");
+                    }
+                    else
+                    {
+                        DocumentsQueryResult documentsQueryResult =
+                            dialog.GetDialogFromSelfRelation().GetDocumentsResult(dialogExpression);
+
+                        Console.WriteLine("Query Result");
+                        document = documentsQueryResult.Items.FirstOrDefault();
+
+                        document = document?.GetDocumentFromSelfRelation();
+                    }
+                }
 
                 if (document == null)
                 {

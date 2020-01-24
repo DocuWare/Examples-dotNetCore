@@ -28,6 +28,10 @@ namespace DocuWare.SDK.Samples.dotNetCore.Helpers {
             Dispose(true);
         }
 
+        public Organization Organization {
+            get { return ServiceConnection?.Organizations.FirstOrDefault()?.GetOrganizationFromSelfRelation();}
+        }
+
         protected virtual void Dispose(bool disposing) {
             //Only dispose one time
             if (_disposed) {

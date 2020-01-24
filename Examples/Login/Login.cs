@@ -17,7 +17,8 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
 
             using (Helpers.Authenticator authenticator = new Helpers.Authenticator(serverAddress, userName, userPassword))
             {
-                Organization organization = authenticator.ServiceConnection.Organizations.FirstOrDefault();
+                Organization organization = authenticator.Organization;
+
                 if (organization == null)
                 {
                     Console.WriteLine("No organization found");

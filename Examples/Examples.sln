@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Token", "Token\Token.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dialog", "Dialog\Dialog.csproj", "{D7A718D2-33AC-47DA-B0BE-5177697F003B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "Users\Users.csproj", "{24ACF934-F4FD-4C09-8BD9-42CF2E964D84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24ACF934-F4FD-4C09-8BD9-42CF2E964D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24ACF934-F4FD-4C09-8BD9-42CF2E964D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24ACF934-F4FD-4C09-8BD9-42CF2E964D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24ACF934-F4FD-4C09-8BD9-42CF2E964D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
